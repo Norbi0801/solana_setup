@@ -1,0 +1,8 @@
+# Cargo workspace odpowiada strukturze anchor init.
+[workspace]
+members = [
+  "programs/hello_anchor"
+]
+
+[workspace.dependencies]
+anchor-lang = { version = "0.30.0" }

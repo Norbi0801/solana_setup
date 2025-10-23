@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Solana Web3.js CDN Demo</title>
+  </head>
+  <body>
+    <!-- Minimal demo showing how to load the CDN bundle recommended in the docs. -->
+    <script src="https://unpkg.com/@solana/web3.js@latest/dist/web3.min.js"></script>
+    <script>
+      // Display the current cluster RPC URL to prove the library loaded.
+      document.addEventListener("DOMContentLoaded", () => {
+        const connection = new solanaWeb3.Connection(solanaWeb3.clusterApiUrl("devnet"));
+        console.log("Connected to", connection.rpcEndpoint);
+      });
+    </script>
+  </body>
+</html>

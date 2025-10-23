@@ -1,0 +1,17 @@
+{
+  "name": "reading-from-network-client",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "rpc": "ts-node src/rpc_query.ts",
+    "custom": "ts-node src/custom_query.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.5",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

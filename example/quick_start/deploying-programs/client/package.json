@@ -1,0 +1,16 @@
+{
+  "name": "first-deploy-client",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "init": "ts-node src/initialize.ts",
+    "update": "ts-node src/update.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.5",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

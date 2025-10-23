@@ -1,0 +1,5 @@
+[workspace]
+members = ["programs/caller", "programs/callee"]
+
+[workspace.dependencies]
+anchor-lang = { version = "0.30.0" }

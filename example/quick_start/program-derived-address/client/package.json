@@ -1,0 +1,19 @@
+{
+  "name": "pda-client",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "create": "ts-node create.ts",
+    "update": "ts-node update.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.0",
+    "@solana/web3.js": "^1.95.5",
+    "borsh": "^1.2.1",
+    "ts-node": "^10.9.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

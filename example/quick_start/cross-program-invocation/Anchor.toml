@@ -1,0 +1,10 @@
+[programs.devnet]
+caller = "CALLER1111111111111111111111111111111111111"
+callee = "CALLEE1111111111111111111111111111111111111"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+invoke = "yarn ts-node client/invoke.ts"

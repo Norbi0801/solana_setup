@@ -1,0 +1,13 @@
+{
+  "name": "hello-anchor",
+  "private": true,
+  "scripts": {
+    "test": "mocha -t 1000000 tests/hello_anchor.ts"
+  },
+  "devDependencies": {
+    "@coral-xyz/anchor": "^0.30.0",
+    "mocha": "^10.4.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.5.4"
+  }
+}

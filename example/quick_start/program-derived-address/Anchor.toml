@@ -1,0 +1,10 @@
+[programs.devnet]
+pda_example = "PDA111111111111111111111111111111111111111"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+create = "yarn ts-node client/create.ts"
+update = "yarn ts-node client/update.ts"

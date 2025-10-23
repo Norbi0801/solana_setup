@@ -1,0 +1,5 @@
+[workspace]
+members = ["programs/pda_example"]
+
+[workspace.dependencies]
+anchor-lang = { version = "0.30.0" }

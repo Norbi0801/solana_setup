@@ -1,0 +1,10 @@
+# Anchor configuration reproducing ustawienia z szybkiego startu.
+[programs.devnet]
+hello_anchor = "H11111111111111111111111111111111111111111"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "node tests/hello_anchor.js"

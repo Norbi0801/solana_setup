@@ -1,0 +1,15 @@
+{
+  "name": "cpi-client",
+  "private": true,
+  "scripts": {
+    "invoke": "ts-node invoke.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.0",
+    "@solana/web3.js": "^1.95.5",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
